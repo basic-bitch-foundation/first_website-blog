@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: #000000;
-    color: #222
+    color: #e7e4e4
 
     
 }
@@ -22,7 +22,7 @@ nav div {
 }
 
 nav a {
-    color: #222;
+    color: #e6dddd;
     text-decoration: none;
 
 }
@@ -30,4 +30,30 @@ nav a {
 main {
     padding:100px 40px;
 }
+
+
+
+
+.front {
+    display: flex;
+    
+    flex-direction: row;
+    align-items: center;
+
+}
+.cat {
+    width: 500px;
+    height: auto;
+
+
+
+}
+.intro {
+    text-align: left;
+    font-size: 64px;
+    color: antiquewhite;
+    margin-left: 150px;
+    
+}
+
 
