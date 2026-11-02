@@ -1,0 +1,56 @@
+.title {
+    padding:  10px;
+    margin-top: 50px;
+    margin-left: 75px;
+    
+}
+
+body {
+    background-color: black;
+    
+}
+
+.main-blog {
+    position: absolute;
+    width:400px;
+    height: 400px;
+    left: 400px; 
+    top: 75px;
+    background-color: #454545;
+    color:#ffffff;
+    border: 5px;
+    border-style: solid;
+    border-color: #6e6868;
+    resize: horizontal;
+    border-radius: 15px;
+    
+    
+
+    
+    
+}
+
+.blog-btn {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: flex-end;
+    left: 400px;
+    top: 495px;
+    
+    
+}
+.draft-btn{
+    
+    margin-right: 3px;
+    background-color:#454545;
+    color: #ffffff;
+
+}
+.publish-btn {
+    margin-left: 3px;
+    background-color: #454545;
+    color: #ffffff;
+
+}
