@@ -97,7 +97,7 @@ html, body {
 
 
 .line1 {
-    width: 410px;
+    width: 408px;
     height: 2px;
     background-color: #FCEF3D;
     position: absolute;
@@ -164,3 +164,73 @@ html, body {
     
 
 }
+
+.me {
+    position: absolute;
+    color: #FCEF3D;
+    font-size: 32px;
+    font-family: "Momo Signature",cursive;
+    left:620px;
+    top:380px;
+    
+}
+.shi {
+    position:absolute;
+    color:#FCEF3D;
+    font-family: "Momo Signature", cursive;
+    font-size: 44px;
+    left:100px;
+    top:450px;
+}
+
+.larp {
+    position:absolute;
+    color:#FCEF3D;
+    font-size: 17px;
+    bottom:130px;
+    left:10px;
+    display: inline-block;
+    width: 850px;
+}
+
+
+.og {
+    position: absolute;
+    width: 150px;
+    height: auto;
+
+    bottom:0px;
+    left:50px;
+    filter: brightness(120%);
+    
+
+}
+@keyframes move {
+    from {
+        transform: translateX(0%);
+
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+
+
+
+
+.quote {
+    color:#FCEF3D;
+    font-size: 20px;
+    
+    white-space: nowrap;
+    
+    
+    
+}
+.banner {
+    width: max-content;
+    animation: move 28s linear infinite;
+    display: flex;
+}
+
