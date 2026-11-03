@@ -1,46 +1,56 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+    margin: 0 auto ;
+    font-family: "JetBrains", monospace;
     background: #000000;
-    color: #e7e4e4
+    
+    
+    
 
     
 }
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #ddd;
-    padding: 20px 40px;
-
-}
-nav div {
-
-    display: flex;
-    gap: 24px;
-
-}
-
-nav a {
-    color: #e6dddd;
-    text-decoration: none;
-
-}
-
 main {
-    padding:100px 40px;
-}
-
-
-
-
-.front {
-    display: flex;
+    position:relative;
+    width: 100%;
+    height: 770px;
+    overflow: hidden;
     
+}
+html, body {
+    overflow-x: hidden;
+    
+    
+}
+
+
+.nav {
+    display: flex;
     flex-direction: row;
-    align-items: center;
+    gap:10px;
+    position: absolute;
+    left:20px;
+    top:35px;
+    font-family: inherit;
+    font-weight: 600;
+    z-index: 100;
+    
 
 }
+.nav a{
+    color:#FCEF3D;
+    text-decoration: none;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
 .cat {
     width: 500px;
     height: auto;
@@ -49,11 +59,108 @@ main {
 
 }
 .intro {
+    left:500px;
+    position: absolute;
+    top:90px;
     text-align: left;
-    font-size: 64px;
-    color: antiquewhite;
-    margin-left: 150px;
+    font-size: 60px;
+    color: #FCEF3D;
+    
+    display:inline-block;
+    width: 300px;
+    
+    
     
 }
 
 
+
+.hi {
+    position: absolute;
+    font-size: 104px;
+    top:90px;
+    left:170px;
+    color: #FCEF3D;
+
+
+}
+
+.lol {
+    position:absolute;
+    color:#FCEF3D;
+    top:190px;
+    left:150px;
+    font-size: 104px;
+    transform: rotate(45deg);
+
+}
+
+
+.line1 {
+    width: 410px;
+    height: 2px;
+    background-color: #FCEF3D;
+    position: absolute;
+    left:10px;
+    top: 60px;
+}
+
+.line2 {
+    width: 800px;
+    height: 2px;
+    background-color: #FCEF3D;
+    position: absolute;
+    left:10px;
+    top: 300px;
+    
+}
+.hpgirl {
+    position:absolute;
+    right: -40px;
+    width: 400px;
+    height: auto;
+    top:100px
+
+}
+
+.line3 {
+    position: absolute;
+    right:10px;
+    left:10px;
+    height: 2px;
+    top:30px;
+    background-color: #FCEF3D;
+
+
+}
+
+.line4{
+    position: absolute;
+    background-color: #FCEF3D;
+    width:750px;
+    height: 2px;
+    left:10px;
+    top: 562.5px;
+}
+
+.me-arrow {
+    position: absolute;
+    color: #FCEF3D;
+    font-size: 100px;
+    top:290px;
+    left:590px;
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
+.shit-arrow {
+    position:absolute;
+    color:#FCEF3D;
+    font-size: 150px;
+    top:425px;
+    left:350px;
+    display:inline-block;
+    transform: rotate(110deg);
+    
+
+}
