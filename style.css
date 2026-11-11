@@ -11,12 +11,11 @@ body {
 main {
     position:relative;
     width: 100%;
-    height: 770px;
+    height: 850px;
     overflow: hidden;
     
 }
 html, body {
-    overflow-x: hidden;
     
     
 }
@@ -32,6 +31,7 @@ html, body {
     font-family: inherit;
     font-weight: 600;
     z-index: 100;
+    
     
 
 }
@@ -51,20 +51,14 @@ html, body {
 
 
 
-.cat {
-    width: 500px;
-    height: auto;
 
-
-
-}
 .intro {
     left:500px;
     position: absolute;
-    top:90px;
+    top:140px;
     text-align: left;
     font-size: 60px;
-    color: #FCEF3D;
+    color: #F15784;
     
     display:inline-block;
     width: 300px;
@@ -78,7 +72,7 @@ html, body {
 .hi {
     position: absolute;
     font-size: 104px;
-    top:90px;
+    top:140px;
     left:170px;
     color: #FCEF3D;
 
@@ -88,7 +82,7 @@ html, body {
 .lol {
     position:absolute;
     color:#FCEF3D;
-    top:190px;
+    top:240px;
     left:150px;
     font-size: 104px;
     transform: rotate(45deg);
@@ -111,7 +105,8 @@ html, body {
     background-color: #FCEF3D;
     position: absolute;
     left:10px;
-    top: 300px;
+    top: 350px;
+    
     
 }
 .hpgirl {
@@ -119,17 +114,18 @@ html, body {
     right: -40px;
     width: 400px;
     height: auto;
-    top:100px
+    top:190px
 
 }
 
 .line3 {
     position: absolute;
-    right:10px;
-    left:10px;
+    right:100px;
+    left:100px;
     height: 2px;
     top:30px;
     background-color: #FCEF3D;
+    visibility: hidden;
 
 
 }
@@ -140,14 +136,14 @@ html, body {
     width:750px;
     height: 2px;
     left:10px;
-    top: 562.5px;
+    top: 630.5px;
 }
 
 .me-arrow {
     position: absolute;
     color: #FCEF3D;
     font-size: 100px;
-    top:290px;
+    top:340px;
     left:590px;
     display: inline-block;
     transform: rotate(180deg);
@@ -157,7 +153,7 @@ html, body {
     position:absolute;
     color:#FCEF3D;
     font-size: 150px;
-    top:425px;
+    top:490px;
     left:350px;
     display:inline-block;
     transform: rotate(110deg);
@@ -171,7 +167,7 @@ html, body {
     font-size: 32px;
     font-family: "Momo Signature",cursive;
     left:620px;
-    top:380px;
+    top:430px;
     
 }
 .shi {
@@ -180,14 +176,14 @@ html, body {
     font-family: "Momo Signature", cursive;
     font-size: 44px;
     left:100px;
-    top:450px;
+    top:550px;
 }
 
 .larp {
     position:absolute;
     color:#FCEF3D;
     font-size: 17px;
-    bottom:130px;
+    bottom:145px;
     left:10px;
     display: inline-block;
     width: 850px;
@@ -205,32 +201,21 @@ html, body {
     
 
 }
-@keyframes move {
-    from {
-        transform: translateX(0%);
-
-    }
-    to {
-        transform: translateX(-50%);
-    }
-}
-
-
-
-
 
 .quote {
+    position:absolute;
     color:#FCEF3D;
-    font-size: 20px;
-    
-    white-space: nowrap;
-    
-    
-    
+    justify-self: center;
+    font-size: large;
 }
-.banner {
-    width: max-content;
-    animation: move 28s linear infinite;
-    display: flex;
-}
+
+
+
+
+
+
+    
+    
+    
+
 
