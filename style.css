@@ -15,16 +15,13 @@ main {
     overflow: hidden;
     
 }
-html, body {
-    
-    
-}
+
 
 
 .nav {
     display: flex;
     flex-direction: row;
-    gap:10px;
+    gap:20px;
     position: absolute;
     left:20px;
     top:35px;
@@ -41,6 +38,9 @@ html, body {
     
 
 }
+.nav a:hover {
+    color:#F15784
+}
 
 
 
@@ -53,12 +53,12 @@ html, body {
 
 
 .intro {
-    left:500px;
+    left:400px;
     position: absolute;
     top:140px;
-    text-align: left;
-    font-size: 60px;
-    color: #F15784;
+    
+    font-size: 45px;
+    color: #FCEF3D;
     
     display:inline-block;
     width: 300px;
@@ -66,14 +66,33 @@ html, body {
     
     
 }
+.saksham {
+    position:absolute;
+    color:#F15784;
+    font-size: 100px;
+    font-weight: 700;
+    top:190px;
+    left: 400px;
+
+}
+.prakash {
+
+    position:absolute;
+    color:#FCEF3D;
+    font-size: 50px;
+    font-weight: 800;
+    top:280px;
+    left: 400px;
+
+}
 
 
 
 .hi {
     position: absolute;
     font-size: 104px;
-    top:140px;
-    left:170px;
+    top:100px;
+    left:30px;
     color: #FCEF3D;
 
 
@@ -81,22 +100,26 @@ html, body {
 
 .lol {
     position:absolute;
-    color:#FCEF3D;
-    top:240px;
-    left:150px;
-    font-size: 104px;
-    transform: rotate(45deg);
+    color:#F15784;
+    top:150px;
+    left:50px;
+    font-size: 140px;
+    
+    font-family: Kalam;
+    font-weight: 700;
+    z-index: 10;
 
 }
 
 
 .line1 {
-    width: 408px;
-    height: 2px;
+    width: 160px;
+    height: 3px;
     background-color: #FCEF3D;
     position: absolute;
     left:10px;
     top: 60px;
+    visibility: hidden;
 }
 
 .line2 {
@@ -120,12 +143,12 @@ html, body {
 
 .line3 {
     position: absolute;
-    right:100px;
-    left:100px;
+    width:270px;
     height: 2px;
     top:30px;
     background-color: #FCEF3D;
-    visibility: hidden;
+    justify-self: center;
+    
 
 
 }
@@ -202,13 +225,52 @@ html, body {
 
 }
 
+
+.og_hover {
+     position: absolute;
+    width: 150px;
+    height: auto;
+
+    bottom:0px;
+    left:50px;
+    filter: brightness(120%);
+
+}
+.ogcon:hover .og {
+    transition: 0.1s;
+    visibility: hidden;
+
+}
+.ogcon:hover .og_hover {
+    transition: 0.1s;
+    visibility: visible;
+}
+
 .quote {
     position:absolute;
     color:#FCEF3D;
     justify-self: center;
     font-size: large;
+    top:5px;
 }
-
+.socials {
+    position:absolute;
+    top:20px;
+    left:1280px;
+    display:flex;
+    gap:20px;
+}
+.ig {
+    
+    width: 100%;
+    height: 30px;
+}
+.linkdin {
+    
+    width: 100%;
+    height: 30px;
+    
+}
 
 
 
