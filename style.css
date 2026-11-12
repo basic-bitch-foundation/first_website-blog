@@ -11,7 +11,7 @@ body {
 main {
     position:relative;
     width: 100%;
-    height: 850px;
+    min-height: 850px;
     overflow: hidden;
     
 }
@@ -53,36 +53,35 @@ main {
 
 
 .intro {
-    left:400px;
+    left:28.5vw;
     position: absolute;
-    top:140px;
+    top:22vh;
     
-    font-size: 45px;
+    font-size: 3rem;
     color: #FCEF3D;
     
     display:inline-block;
-    width: 300px;
+    
     
     
     
 }
 .saksham {
-    position:absolute;
+    
     color:#F15784;
-    font-size: 100px;
+    font-size: 6rem;
     font-weight: 700;
-    top:190px;
-    left: 400px;
+    
 
 }
 .prakash {
 
     position:absolute;
     color:#FCEF3D;
-    font-size: 50px;
+    font-size: 4rem;
     font-weight: 800;
-    top:280px;
-    left: 400px;
+    top:32.5%;
+    left: 28.5%;
 
 }
 
@@ -90,7 +89,7 @@ main {
 
 .hi {
     position: absolute;
-    font-size: 104px;
+    font-size: 6.5rem;
     top:100px;
     left:30px;
     color: #FCEF3D;
@@ -103,7 +102,7 @@ main {
     color:#F15784;
     top:150px;
     left:50px;
-    font-size: 140px;
+    font-size: 8.5rem;
     
     font-family: Kalam;
     font-weight: 700;
@@ -123,12 +122,12 @@ main {
 }
 
 .line2 {
-    width: 800px;
+    width: 60%;
     height: 2px;
     background-color: #FCEF3D;
     position: absolute;
     left:10px;
-    top: 350px;
+    top: 41%;
     
     
 }
@@ -141,25 +140,15 @@ main {
 
 }
 
-.line3 {
-    position: absolute;
-    width:270px;
-    height: 2px;
-    top:30px;
-    background-color: #FCEF3D;
-    justify-self: center;
-    
 
-
-}
 
 .line4{
     position: absolute;
     background-color: #FCEF3D;
-    width:750px;
+    width:50%;
     height: 2px;
     left:10px;
-    top: 630.5px;
+    top: 73%;
 }
 
 .me-arrow {
@@ -247,18 +236,29 @@ main {
 }
 
 .quote {
-    position:absolute;
+    text-align: center;
+    
+    
+    
     color:#FCEF3D;
-    justify-self: center;
-    font-size: large;
-    top:5px;
+    
+    font-size:1.2rem;
+    border-bottom: 0.15rem solid #FCEF3D;
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+    
 }
 .socials {
-    position:absolute;
-    top:20px;
-    left:1280px;
+    margin-right:2vh;
+    margin-left:auto;
+    
     display:flex;
-    gap:20px;
+    gap:1.1rem;
+    justify-self: right;
+
 }
 .ig {
     
