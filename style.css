@@ -127,7 +127,7 @@ main {
 
 }
 .iam{
-    font-size: 2rem;
+    font-size: 2.5rem;
     height:fit-content;
     line-height: 0.5;
 
@@ -173,7 +173,7 @@ main {
     color:#F15784;
     top:150px;
     left:50px;
-    font-size: 8.5rem;
+    font-size: 10.5rem;
     
     font-family: Kalam;
     font-weight: 700;
@@ -182,15 +182,7 @@ main {
 }
 
 
-.line1 {
-    width: 160px;
-    height: 3px;
-    background-color: #FCEF3D;
-    position: absolute;
-    left:10px;
-    top: 60px;
-    visibility: hidden;
-}
+
 
 .line2 {
     width: 60%;
@@ -198,7 +190,7 @@ main {
     background-color: #FCEF3D;
     position: absolute;
     left:10px;
-    top: 41%;
+    top: 44vh;
     
 }
 .girl {
@@ -215,6 +207,14 @@ main {
     bottom:0vh;
     width: 100%;
     
+}
+.cat {
+    position: absolute;
+    height:auto;
+    width: 38vh;
+    top:46vh;
+    left:0vw;
+    transform:scaleX(-1);
 }
 
 
@@ -233,9 +233,9 @@ main {
 .me-arrow {
     position: absolute;
     color: #FCEF3D;
-    font-size: 100px;
-    top:340px;
-    left:590px;
+    font-size: 6rem;
+    top:43vh;
+    left:35vw;
     display: inline-block;
     transform: rotate(180deg);
     
@@ -244,11 +244,16 @@ main {
 .shit-arrow {
     position:absolute;
     color:#FCEF3D;
-    font-size: 150px;
-    top:490px;
-    left:350px;
+    font-size: 7rem;
+    top:81vh;
+    left:30vw;
     display:inline-block;
-    transform: rotate(110deg);
+    
+
+    
+
+    
+    
     
 
 }
@@ -256,19 +261,19 @@ main {
 .me {
     position: absolute;
     color: #FCEF3D;
-    font-size: 32px;
+    font-size: 2.5rem;
     font-family: "Momo Signature",cursive;
     left:620px;
-    top:430px;
+    top:52vh;
     
 }
 .shi {
     position:absolute;
     color:#FCEF3D;
     font-family: "Momo Signature", cursive;
-    font-size: 44px;
-    left:100px;
-    top:550px;
+    font-size: 3rem;
+    left:30vw;
+    top:75vh;
 }
 
 .larp {
