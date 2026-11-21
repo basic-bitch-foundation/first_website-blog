@@ -26,6 +26,9 @@ main {
     width: fit-content;
     font-family: inherit;
     font-weight: 600;
+    position:absolute;
+    top:2vh;
+    left:1vw;
 }
    
 .first_screen {
@@ -81,21 +84,7 @@ main {
     
 }
 
-.socials {
-    position:absolute;
-    top:1vh;
-    right:1vw;
-    
-    
-    
-    width:fit-content;
 
-    
-    display:flex;
-    gap:1.1rem;
-    
-
-}
 
 
 .intro1 {
@@ -326,12 +315,57 @@ main {
     
     width: auto;
     height: 30px;
+    position:absolute;
+    right:3.5vw;
+    top:1vh;
+}
+
+.ig_hover {
+    width: auto;
+    height:30px;
+    position:absolute;
+    right:3.5vw;
+    top:1vh;
+}
+.insta_con:hover .ig {
+    transition:0.1s;
+    visibility: hidden;
+
+
+}
+.insta_con:hover .ig_hover {
+    transition: 0.1s;
+    visibility: visible;
 }
 .linkdin {
     
     width: auto;
     height: 30px;
+    position:absolute;
+    right:1vw;
+    top:1vh;
     
+}
+
+.linkdin_hover {
+    width: auto;
+    height:30px;
+    
+    position:absolute;
+    right:1vw;
+    top:1vh;
+}
+
+.linkdin_con:hover .linkdin {
+    transition: 0.1s;
+    visibility: hidden;
+
+
+}
+
+.linkdin_con:hover .linkdin_hover {
+    transition: 0.1s;
+    visibility: visible;
 }
 
 
