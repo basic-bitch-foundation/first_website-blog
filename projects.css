@@ -1,3 +1,7 @@
+ *, *::before, *::after {
+        box-sizing: border-box;
+    }
+     
 body {
     background-color: black;
     font-family: "JetBrains", monospace;
@@ -30,6 +34,9 @@ main {
     text-decoration: none;
 
 }
+.nav a:hover {
+    color:#F15784;
+}
 
 .medusa {
     transform: scaleX(-1);
@@ -56,7 +63,11 @@ main {
 
 
 .card:hover {
-    color:#F15784
+    color:#F15784;
+    left:39vw;
+    top:4.5vh;
+    transform: rotate(3deg);
+    transition: 0.2s;
 
 }
 
@@ -69,8 +80,22 @@ main {
     width:60vw;
     height: 30vh;
     border-radius: 1000px;
+    padding-right: 19vw;
+    padding-left:8vw;
+    padding-top: 6vh;
+    
+
     
 }
+.pic1 {
+    position:absolute;
+    left:40vw;
+    width:auto;
+    height: 20vh;
+    top:5vh;
+    
+}
+
 .p2 {
     
     border-width: 6px;
@@ -78,6 +103,9 @@ main {
     width:50vw;
     height: 30vh;
     border-radius: 1000px;
+    padding-right: 19vw;
+    padding-left:8vw;
+    padding-top: 6vh;
     
 }
 .p3 {
@@ -87,6 +115,9 @@ main {
     width:55vw;
     height: 30vh;
     border-radius: 1000px;
+    padding-right: 19vw;
+    padding-left:8vw;
+    padding-top: 6vh;
     
 }
 .p4 {
@@ -96,5 +127,50 @@ main {
     width:70vw;
     height: 30vh;
     border-radius: 1000px;
+    padding-right: 19vw;
+    padding-left:8vw;
+    padding-top: 6vh;
     
 }
+
+
+.project_serial {
+    color:#F15784;
+    display: flex;
+    flex-direction: column ;
+    
+    height: fit-content;
+    position: absolute;
+    top:12vh;
+    
+}
+.project_serial a {
+    height:40vh;
+    align-items: flex-start;
+    display: flex;
+}
+
+.desc {
+    color:#F15784;
+    font-size: 1.2rem;
+    font-family: Science Gothic;
+    
+    
+    
+    
+}
+
+
+.gp1 {
+    position: absolute;
+    left:54.5vw;
+    top:10vh;
+   
+
+}
+
+.gh_img {
+    width: auto;
+    height: 4rem;
+}
+
