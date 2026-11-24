@@ -57,6 +57,10 @@ main {
 
 }
 
+.card {
+    position:relative;
+    transition: 0.2s;
+}
 
 
 
@@ -64,10 +68,9 @@ main {
 
 .card:hover {
     color:#F15784;
-    left:39vw;
-    top:4.5vh;
+    
     transform: rotate(3deg);
-    transition: 0.2s;
+    
 
 }
 
@@ -163,8 +166,8 @@ main {
 
 .gp1 {
     position: absolute;
-    left:54.5vw;
-    top:10vh;
+    left:55.5vw;
+    top:1vh;
    
 
 }
@@ -172,5 +175,40 @@ main {
 .gh_img {
     width: auto;
     height: 4rem;
+    margin-left: 5px;
 }
 
+.gp2 {
+    position: absolute;
+    left:45.5vw;
+    top:1vh;
+
+    
+}
+ 
+
+.gp3 {
+    position:absolute;
+    left:51vw;
+    top:1vh;
+    
+
+}
+.gp4 {
+    position:absolute;
+    left:66vw;
+    top:1vh;
+}
+
+
+.quote {
+    color:#FCEF3D;
+    font-weight: 900;
+    position:absolute;
+    left:50vw;
+    transform: translateX(-50%);
+    border-bottom: solid 2px;
+    
+
+    
+}
